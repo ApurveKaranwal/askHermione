@@ -20,8 +20,8 @@ load_dotenv()
 groq_api_key = os.getenv("GROQ_API_KEY")
 
 # ------------------ Streamlit UI Setup ------------------ #
-st.set_page_config(page_title="Course Notes Q&A Bot", layout="wide", page_icon="🎓")
-st.title("🎓 Course Notes Q&A Bot")
+st.set_page_config(page_title="askHermione", layout="wide", page_icon="🎓")
+st.title("🎓 askHermione")
 st.caption("AI Study Assistant – Ask, Summarize, and Understand Your Notes Instantly 📚")
 
 # ------------------ Session Variables ------------------ #
